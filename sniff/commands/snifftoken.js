@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { formatDateBrazil, formatMoney, sumAmounts } from '../utils/utils.js';
+import { formatDateBrazil, formatMoney, sumAmounts } from '../utils/adapters.js';
 
 export async function sniff_token(url) {
     try {
